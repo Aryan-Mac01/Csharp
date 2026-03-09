@@ -125,6 +125,108 @@ namespace MyFirstProject
             //    Console.WriteLine("{0} x {1} = {2}", i, number, i*number);
             //}
 
+            //EXERCISE - FIZZ BUZZ GAME
+            /*
+             * Create a for loop from 1 to X 
+             * 3 and 5 = fizz buzz
+             * 3 = fizz
+             * 5 = buzz
+             * else = number
+             */
+
+            //Console.WriteLine("Enter a number: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //for(int i = 1; i <= number; i++)
+            //{
+            //    if(i%3 == 0 && i%5 == 0)
+            //    {
+            //        Console.WriteLine("FIZZ BUZZ");
+            //    }
+            //    else if(i%3 == 0)
+            //    {
+            //        Console.WriteLine("FIZZ");
+            //    }
+            //    else if(i%5 == 0)
+            //    {
+            //        Console.WriteLine("BUZZ");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("{0}", i);
+            //    }
+            //}
+
+            //EXERCISE: PRINT STRING IN REVERSE
+            /*
+             *Ask user to input message
+             *print in order
+             *print in reverse
+             */
+
+            //Console.WriteLine("Enter your message: ");
+            //string message = Console.ReadLine();
+
+            //Console.WriteLine(message[0]);
+            //for(int i = 0; i < message.Length; i++)
+            //{
+            //    Console.Write(message[i]);
+            //}
+
+            //Console.WriteLine();
+            //for (int i = message.Length-1; i >= 0; i--)
+            //{
+
+            //    Console.Write(message[i]);
+            //}
+
+            //EXERCISE: PASSWORD CHECKER
+            /*
+             * Ask user to enter password and store
+             * Ask user to enter password again and store
+             * Check if they both contain something
+                * If so check if they are the same
+                    * If they are print "Password match"
+                    * If they are not "Password doesn't match"
+                * If they are empty, print "Please enter the password" 
+             */
+
+            //Console.WriteLine("Please enter the password");
+            //string password = Console.ReadLine();
+
+            //Console.WriteLine("Please re-enter the password");
+            //string confirmPassword = Console.ReadLine();
+
+            //if(!password.Equals(string.Empty) && !confirmPassword.Equals(string.Empty))
+            //{
+            //    if (password.Equals(confirmPassword))
+            //    {
+            //        Console.WriteLine("Password match");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Password do not match");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Please enter the password");
+            //}
+
+            //ARRAY
+            int[] numbers = new int[3];
+            int[] num = new int[3];
+            numbers[0] = 5;
+            numbers[1] = 10;
+            numbers[2] = 15;
+
+            Console.WriteLine("Enter 3 number: ");
+            num[0] = Convert.ToInt32(Console.ReadLine());
+            num[1] = Convert.ToInt32(Console.ReadLine());
+            num[2] = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"{numbers[0]} {numbers[1]} {numbers[2]}");
+
             Console.ReadLine();
         }
     }
